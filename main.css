@@ -8,13 +8,21 @@ body {
   border: 1.5px solid #CFCFCF;
   margin: 5px;
   border-radius: 5px;
+  margin-bottom: -15px;
 }
 
 .authors img {
   width: 25px;
   border: none;
   float: right;
-  margin: 0px;
+  margin: 0px -14px 5px 5px;
+
+}
+
+.authors {
+	display: inline-block;
+	float: right;
+	padding-left: 5px;
 }
 
 .octocat {
@@ -51,5 +59,20 @@ ul {
 .image-footer {
 	height: 35px;
 	border-bottom: 1.5px solid #CFCFCF;
-	margin: 5px;
+	position: relative;
+	margin: 15px;
+	padding: 6px;
+}
+
+.image-caption::before {
+	content: " ";
+	width: 0;
+	height: 0;
+	border-style: solid;
+	margin-right: 8px;
+	border-width: 8px 7px 0 6px;
+	border-color: #cfcfcf  transparent transparent transparent;
+	margin-top: -10px;
+	margin-right: -12px;
+	float: right;
 }
