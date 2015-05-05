@@ -1,0 +1,22 @@
+body {
+  font-family: sans-serif;
+}
+
+.octocat img {
+  width: 400px;
+  float: left;
+  border: 1px solid #CFCFCF;
+}
+
+.authors img {
+  width: 25px;
+  border: none;
+}
+
+.octocat {
+  float: left;
+}
+
+ul {
+  list-style: none;
+}
