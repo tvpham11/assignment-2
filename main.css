@@ -1,22 +1,46 @@
 body {
   font-family: sans-serif;
+  float: left;
 }
 
 .octocat img {
-  width: 400px;
-  float: left;
-  border: 1px solid #CFCFCF;
+  width: 370px;
+  border: 2px solid #CFCFCF;
+  margin: 5px;
 }
 
 .authors img {
   width: 25px;
   border: none;
+  float: right;
+  margin: 0px;
 }
 
 .octocat {
   float: left;
+  margin: 5px;
 }
 
 ul {
   list-style: none;
+  float: right;
+  font-weight: bold;
+}
+
+.image-number::before {
+  content: "#";
+}
+
+.image-number {
+	color: silver;
+}
+
+.image-caption {
+	float: right;
+	color: silver;
+}
+
+.image-footer {
+	height: 50px;
+	border-bottom: 2px solid #CFCFCF;
 }
