@@ -5,8 +5,9 @@ body {
 
 .octocat img {
   width: 370px;
-  border: 2px solid #CFCFCF;
+  border: 1.5px solid #CFCFCF;
   margin: 5px;
+  border-radius: 5px;
 }
 
 .authors img {
@@ -33,14 +34,22 @@ ul {
 
 .image-number {
 	color: silver;
+	font-size: 14px;
 }
 
 .image-caption {
 	float: right;
-	color: silver;
+	color: gray;
+	font-size: 14px;
+}
+
+.image-caption a {
+	color: black;
+	text-decoration: none;
 }
 
 .image-footer {
-	height: 50px;
-	border-bottom: 2px solid #CFCFCF;
+	height: 35px;
+	border-bottom: 1.5px solid #CFCFCF;
+	margin: 5px;
 }
