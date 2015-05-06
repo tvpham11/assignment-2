@@ -13,10 +13,10 @@ body {
 
 .authors img {
   width: 25px;
-  border: none;
   float: right;
-  margin: 0px -14px 5px 5px;
-
+  border: none;
+  padding-right: 1px;
+  margin: 0px 0px 5px 5px;
 }
 
 .authors {
@@ -57,10 +57,10 @@ ul {
 }
 
 .image-footer {
-	height: 35px;
+	height: 25px;
 	border-bottom: 1.5px solid #CFCFCF;
 	position: relative;
-	margin: 15px;
+	margin: 15px 15px 0px 0px;
 	padding: 6px;
 }
 
@@ -71,7 +71,7 @@ ul {
 	border-style: solid;
 	margin-right: 8px;
 	border-width: 8px 7px 0 6px;
-	border-color: #cfcfcf  transparent transparent transparent;
+	border-color: #CFCFCF  transparent transparent transparent;
 	margin-top: -10px;
 	margin-right: -12px;
 	float: right;
