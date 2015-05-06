@@ -4,7 +4,7 @@ body {
 }
 
 .octocat img {
-  width: 370px;
+  width: 380px;
   border: 1.5px solid #CFCFCF;
   margin: 5px;
   border-radius: 5px;
@@ -13,16 +13,16 @@ body {
 
 .authors img {
   width: 25px;
-  float: right;
   border: none;
-  padding-right: 1px;
-  margin: 0px 0px 5px 5px;
+  float: right;
+  margin: 0;
 }
 
 .authors {
 	display: inline-block;
 	float: right;
-	padding-left: 5px;
+	padding-left: 2px;
+	margin-left: 0px;
 }
 
 .octocat {
@@ -60,7 +60,7 @@ ul {
 	height: 25px;
 	border-bottom: 1.5px solid #CFCFCF;
 	position: relative;
-	margin: 15px 15px 0px 0px;
+	margin: 15px 5px 0px 0px;
 	padding: 6px;
 }
 
@@ -69,10 +69,9 @@ ul {
 	width: 0;
 	height: 0;
 	border-style: solid;
-	margin-right: 8px;
 	border-width: 8px 7px 0 6px;
 	border-color: #CFCFCF  transparent transparent transparent;
 	margin-top: -10px;
-	margin-right: -12px;
+	margin-right: 4px;
 	float: right;
 }
